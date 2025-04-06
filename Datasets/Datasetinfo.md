@@ -1,4 +1,4 @@
-#Datasets
+# Datasets
 
 The UAE_NO2_SO2_Aerosol_Combined_2023_2025.tif dataset is a georeferenced multi-band raster file containing atmospheric pollution indicators across the United Arab Emirates from 2023 to 2025. It includes three spatial layers: NO₂ column number density, SO₂ column number density, and the absorbing aerosol index (AAI), each represented as a separate band with a spatial resolution of approximately 1 km. The data is structured in WGS 84 geographic coordinates (EPSG:4326) and spans latitudes 22.62° to 26.08° and longitudes 51.53° to 56.39°. While it does not include explicit administrative boundaries or city labels, the dataset can be overlaid with geospatial layers to analyze air quality variations across urban and rural areas such as Dubai, Sharjah, and Abu Dhabi.
 
