@@ -1,2 +1,68 @@
-# Title: Urban Mobility and Air Quality in UAE Cities: A Satellite-Driven Comparative Analysis
-Urban air quality in rapidly growing cities is increasingly shaped by human mobility, land use, and infrastructure density. This study presents a comparative geospatial analysis of mobility patterns and atmospheric pollution across four major UAE cities—Dubai, Abu Dhabi, Sharjah, and Al Ain—using integrated satellite and open-source datasets. We propose a two-phase methodology: (1) a retrospective analysis from 2020 to 2022 using high-resolution NO₂, SO₂, and aerosol data from Sentinel-5P combined with Google Mobility Reports and OpenAQ ground sensors; and (2) a forecast-based scenario from 2023 to 2025 utilizing projected pollution data and Ericsson’s regional mobility forecasts. Cities are subdivided into geohash zones to enable uniform spatial analysis. Exploratory data analysis, clustering, and regression modeling are used to identify pollution hotspots, quantify mobility-pollution correlations, and highlight zones with potential for clean transport interventions. The findings provide data-driven insights into the urban environmental dynamics of the UAE and offer a scalable framework for smart city planning and policy prioritization in similar rapidly urbanizing contexts.
+# Urban Mobility and Air Quality in UAE Cities: A Satellite-Driven Comparative Analysis
+
+**GeoAirMob** is a collaborative research project conducted by undergraduate students from the University of Sharjah. It explores how human mobility patterns influence air quality in major UAE cities—**Dubai, Abu Dhabi, Sharjah, and Al Ain**—through the integration of satellite data, ground sensors, and mobility reports.
+
+---
+
+This project follows a two-phase methodology developed in Python, combining data engineering, spatial modeling, and machine learning.
+
+### Phase 1: Retrospective Analysis (2020–2022)
+
+- Integrated historical data from:
+  - **Google Community Mobility Reports**
+  - **OpenAQ air quality measurements**
+  - **Sentinel-5P satellite imagery**
+- Standardized spatial resolution using **5-character geohash zones**
+- Engineered features like mobility change rates and log-population density
+- Applied **K-Means clustering** to detect pollution hotspots
+- Built **Ordinary Least Squares (OLS)** regression models to quantify linear mobility–pollution relationships
+
+---
+
+### Phase 2: Forecast Scenario (2023–2025)
+
+- Designed three **synthetic mobility scenarios**:
+  - Proportional shifts  
+  - Spatial perturbations  
+  - Population-weighted variations  
+- Trained a **Gradient Boosting Regressor** (`n_estimators=100`, `max_depth=3`, `learning_rate=0.1`)  
+- Achieved strong model performance:
+  - Cross-validation R²: **0.966**  
+  - Test R²: **0.959**  
+  - MAE: **1.0 × 10⁻⁵**  
+  - RMSE: **1.4 × 10⁻⁵**
+
+---
+
+## Key Outcomes
+
+- Generated fine-grained **air quality risk maps**
+- Identified **high-risk mobility zones** for policy and planning
+- Created a reproducible, scalable modeling pipeline
+
+---
+
+## Repository Structure
+
+- **`GEOCODE.ipynb`**: Complete code 
+- **`Presentation/Slides`**: Final presentation assets  
+- **`Project_Figures`**: Plots and visual outputs from both phases  
+- **`Related Works`**: Sources used for literature review  
+- **`README.md`**: Project overview and documentation  
+- **`.docx` files**: Report sections (Introduction, Methodology, Results, etc.)  
+- **`Statement of Contribution`**: Contains detailed roles and responsibilities of each team member
+
+---
+
+## Authors
+
+- **Manal Ali Ahmed Alteneiji** — U23103284  
+- **Hawra Mohammed S Al Sinan** — U22106610  
+- **Mariam Khalid Ali Yousif Alali** — U23102355  
+- **Asama Hassan Alhammadi** — U23200052
+
+---
+
+## License & Acknowledgments
+
+This project is an academic submission under the **Department of Computing and Informatics**, University of Sharjah. All datasets used are open-source and credited accordingly.
