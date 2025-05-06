@@ -50,7 +50,7 @@ This project follows a two-phase methodology developed in Python, combining data
 - **`Related Works`**: Sources used for literature review  
 - **`README.md`**: Project overview and documentation  
 - **`.docx` files**: Report sections (Introduction, Methodology, Results, etc.)  
-- **`Statement of Contribution`**: Contains detailed roles and responsibilities of each team member
+- **`Statement of Contribution.docx`**: Contains detailed roles and responsibilities of each team member
 
 ---
 
