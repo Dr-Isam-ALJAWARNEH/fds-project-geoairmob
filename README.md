@@ -2,6 +2,9 @@
 
 **GeoAirMob** is a collaborative research project conducted by undergraduate students from the University of Sharjah. It explores how human mobility patterns influence air quality in major UAE cities—**Dubai, Abu Dhabi, Sharjah, and Al Ain**—through the integration of satellite data, ground sensors, and mobility reports.
 
+The Prject report was compiled in overleaf using LaTeX editor
+https://www.overleaf.com/3174811687jpmdzbnjqqbc#724546
+
 ---
 
 This project follows a two-phase methodology developed in Python, combining data engineering, spatial modeling, and machine learning.
