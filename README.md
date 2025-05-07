@@ -47,12 +47,14 @@ This project follows a two-phase methodology developed in Python, combining data
 
 ## Repository Structure
 
-- **`GEOCODE.ipynb`**: Complete code 
+- **`GEOCODE.ipynb`**: Complete code
+- - **`Datasets`**: Contains all the datasets used in work  
+- - **`Final_Report`**: Contains the full research paper  
 - **`Presentation/Slides`**: Final presentation assets  
 - **`Project_Figures`**: Plots and visual outputs from both phases  
 - **`Related Works`**: Sources used for literature review  
 - **`README.md`**: Project overview and documentation  
-- **`.docx` files**: Report sections (Introduction, Methodology, Results, etc.)  
+- **`Report_Writing_Progress(.docx` files)**: Report sections (Introduction, Methodology, Results, etc.)  
 - **`Statement of Contribution.docx`**: Contains detailed roles and responsibilities of each team member
 
 ---
