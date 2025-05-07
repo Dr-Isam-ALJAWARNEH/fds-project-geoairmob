@@ -54,7 +54,7 @@ This project follows a two-phase methodology developed in Python, combining data
 - **`Project_Figures`**: Plots and visual outputs from both phases  
 - **`Related Works`**: Sources used for literature review  
 - **`README.md`**: Project overview and documentation  
-- **`Report_Writing_Progress(.docx` files)**: Report sections (Introduction, Methodology, Results, etc.)  
+- **`Report_Writing_Progress(.docx files)`**: Report sections (Introduction, Methodology, Results, etc.)  
 - **`Statement of Contribution.docx`**: Contains detailed roles and responsibilities of each team member
 
 ---
