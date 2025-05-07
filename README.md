@@ -47,7 +47,7 @@ We employed the following to interpret the results:
 - **Raster Maps**: Forecasted pollution concentrations
 - **σ-Spread Maps**: Spatial variability indicators
 - **Cluster Overlays**: Future hotspot predictions
-- 
+  
 -Risk Evaluation
 We evaluated geohash zones for:
 - **Mobility Growth**
