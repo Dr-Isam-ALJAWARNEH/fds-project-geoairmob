@@ -28,32 +28,29 @@ This project follows a two-phase methodology developed in Python, combining data
 
 
 ### Phase 2: Forecast Scenario (2023–2025)
-- Forecast Data Integration
-We integrated Ericsson mobility forecast data with projected Sentinel-5P satellite rasters for the years 2023–2025. The data was spatially aligned by joining forecast values to the same geohash zones used in Phase 1, ensuring consistency across the temporal-spatial framework.
+- Forecast Data Integration: We integrated Ericsson mobility forecast data with projected Sentinel-5P satellite rasters for the years 2023–2025. The data was spatially aligned by joining forecast values to the same geohash zones used in Phase 1, ensuring consistency across the temporal-spatial framework.
 
--Mapping and Geospatial Join
+- Mapping and Geospatial Join
 - Forecast mobility and pollution data were mapped to the Phase 1 geohash grid.
 - This allowed for a unified view of both observed and predicted trends across urban and rural zones.
   
--Change Quantification
+- Change Quantification
 We quantified changes in pollution and mobility indicators using:
-- **MAD**: Median Absolute Deviation
-- **MAXD**: Maximum Difference across years
-- **σ (Standard Deviation)**: To assess variability and signal stabilit
+ - **MAD**: Median Absolute Deviation
+ - **MAXD**: Maximum Difference across years
+ - **σ (Standard Deviation)**: To assess variability and signal stabilit
   
-- Visual Analytics
-We employed the following to interpret the results:
-- **Time Series Plots**: Show mobility and pollutant trends by geohash
-- **Raster Maps**: Forecasted pollution concentrations
-- **σ-Spread Maps**: Spatial variability indicators
-- **Cluster Overlays**: Future hotspot predictions
+- Visual Analytics: We employed the following to interpret the results:
+ - **Time Series Plots**: Show mobility and pollutant trends by geohash
+ - **Raster Maps**: Forecasted pollution concentrations
+ - **σ-Spread Maps**: Spatial variability indicators
+ - **Cluster Overlays**: Future hotspot predictions
   
--Risk Evaluation
-We evaluated geohash zones for:
-- **Mobility Growth**
-- **Pollution Increase**
-- **Volatility (σ)**
-Zones exhibiting high combined values were flagged as **high-risk areas**, guiding future policy and intervention strategies.
+- Risk Evaluation: We evaluated geohash zones for:
+ - **Mobility Growth**
+ - **Pollution Increase**
+ - **Volatility (σ)**
+- Zones exhibiting high combined values were flagged as **high-risk areas**, guiding future policy and intervention strategies.
 
 ---
 
