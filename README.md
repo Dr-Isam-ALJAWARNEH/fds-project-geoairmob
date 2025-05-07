@@ -59,7 +59,7 @@ This project follows a two-phase methodology developed in Python, combining data
 - **Manal Ali Ahmed Alteneiji** — U23103284  
 - **Hawra Mohammed S Al Sinan** — U22106610  
 - **Mariam Khalid Ali Yousif Alali** — U23102355  
-- **Asama Hassan Alhammadi** — U23200052
+- **Asma Hassan Alhammadi** — U23200052
 
 ---
 
